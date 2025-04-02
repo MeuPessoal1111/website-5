@@ -1,35 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Krona+One&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 
-body{
+.cabeca__titulo{
+    font-family: "Bungee Tint", sans-serif;
 }
+
+.cabeca__subtitulo{
+    font-family: "Dancing Script", cursive;
+}
+.cabeca__foto{
+    position: absolute;
+    top: 220px;  
+    left: 100px;
+
+
+}
+
 header{
+    
     background: #8F87F1;
     text-align: center;
+    margin: 10px;
+    padding: 70px;
+    border-radius: 30px;
+    font-size: 60px;
+    border: 2px solid rgb(32, 16, 121);
     
+
   
 }
 
-article{
+.artigo{
     background: #C68EFD;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(80, 25, 133);
     
 }
 
 .artigo__foto{
-   height: 80px;
-   display: block;
-   margin: auto;
+    height: 80px;
+    display: block;
+    margin: auto;
 }
-main{
+
+.artigo__dia{
+    position: absolute;
+    top: 320px; 
+    left: 110px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+.artigo__quadrado{
+    flex: auto;
+    justify-content: block;
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    height: 190px;
+    border-radius: 20px;
+    border: 3px solid black;
+
+}
+#q1{position:relative}
+#q1:hover{top:-10px;box-shadow:0 2px 2px #916a6a}
+#q2{position:relative}
+#q2:hover{top:-10px;box-shadow:0 2px 2px #666}
+#q3{position:relative}
+#q3:hover{top:-10px;box-shadow:0 2px 2px #666}
+
+#q1{
+    background-image: url('/src/img/imagem7.jpg') ;
+    background-repeat: no-repeat;
+}
+#q2{
+    background-image: url('/src/img/imagem8.avif');
+    background-repeat: no-repeat;
+}
+#q3{
+    background-image: url('/src/img/imagem9.jpeg');
+    background-repeat: no-repeat;
+}
+
+.introducao{
     background: #E9A5F1;
+    margin: 10px;
+    padding: 80px;
+    border-radius: 30px;
+    border: 2px solid rgb(78, 20, 71);
+}
+.introducao__caracteristicas__titulo{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 70px;
 }
 
-footer{
+.introducao__caracteristicas{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+
+.final{
     background: #FED2E2;
+    margin: 10px;
+    padding: 80px;
+    border-radius: 30px;
+    border: 2px solid rgb(99, 102, 145);
+}
+.final__caracteristicas{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+
+.final__caracteristicas__titulo{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 70px;
+    
+}
+
+.quadrado__extra1{
+
+    background: #E9A5F1;
+    margin: 10px;
+    padding: 80px;
+    border-radius: 30px;
+    border: 2px solid rgb(78, 20, 71);
 
 }
+
+.quadrado__extra2{
+    background: #C68EFD;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(80, 25, 133);
+
+}
+
 html{
-    background: #DBDBDB;
+    background-image: linear-gradient( black, rgb(56, 52, 116) , black);
+    margin: 10px;
+    padding: 70px;
+    border-radius: 10px;
 }
