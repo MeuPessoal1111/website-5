@@ -81,6 +81,14 @@ header{
     background-image: url('/src/img/imagem7.jpg') ;
     background-repeat: no-repeat;
 }
+
+.artigo__botao__q1{
+    font-size: 40px;
+    background-image: url('/src/img/imagem7.jpg') ;
+    background-repeat: no-repeat;
+}
+
+
 #q2{
     background-image: url('/src/img/imagem8.avif');
     background-repeat: no-repeat;
