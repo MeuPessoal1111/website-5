@@ -9,3 +9,7 @@ function apertarq2() {
 function apertarq3() {
     console.log("1213")
 }
+
+function backgroundEscuro() {
+    linear-gradient( black, rgb(56, 52, 116) , black);
+}
