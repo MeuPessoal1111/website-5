@@ -11,5 +11,5 @@ function apertarq3() {
 }
 
 function backgroundEscuro() {
-    linear-gradient( black, rgb(56, 52, 116) , black);
+    linear-gradient( black, rgb(56, 52, 116) , black)
 }
