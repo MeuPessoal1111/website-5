@@ -10,6 +10,12 @@ function apertarq3() {
     console.log("1213")
 }
 
-function backgroundEscuro() {
-    linear-gradient( black, rgb(56, 52, 116) , black)
+function esconherNumeroAleatorio() {
+     return parseInt(Math.random() * 10 + 1)
+
+}
+
+function clicarBotao() {
+    document.getElementById("quadrado__extra2__botao").innerText =esconherNumeroAleatorio()
+
 }
