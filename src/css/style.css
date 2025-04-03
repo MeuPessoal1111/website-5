@@ -90,6 +90,12 @@ header{
     background-repeat: no-repeat;
 }
 
+.artigo__q1{
+    font-size: 40px;
+    font-family: "Fjalla One", sans-serif;  
+    color: rgb(25, 161, 214);
+}
+
 .introducao{
     background: #E9A5F1;
     margin: 10px;
@@ -132,6 +138,11 @@ header{
     padding: 80px;
     border-radius: 30px;
     border: 2px solid rgb(78, 20, 71);
+    font-size: 30px;
+    flex: auto;
+    justify-content: space-between;
+    text-align: center;
+
 
 }
 
@@ -141,6 +152,7 @@ header{
     padding: 10px;
     border-radius: 30px;
     border: 2px solid rgb(80, 25, 133);
+    
 
 }
 
